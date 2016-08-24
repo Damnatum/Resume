@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+  </head>
+  <body>
+  <h1>Tyler's Resume</h1>
+  #Navbar here
+  <h2>Emplyment History<h2>
+  <p>Case Staffing Solutions</p>
+  <p>Eden Prairie, MN</p>
+  <p>11/2011 - Present</p>
+  <p>Enter LinkedIn text here</p>
+  
+  <h2>Education</h2>
+  <p>Normandale Community College</p>
+  <p>Bloomington, MN</p>
+  <p>2015 - 2015</p>
+  <p>General Studies</p>
+  
+  <h2>Contact Info</h2>
+  <a href="mailto:tyjblomberg@gmail.com" target="_top">tyjblomberg@gmail.com</a>
+  <a href="tel:13202234913>320-223-4913</a>
+  <a href="https://www.google.com/maps/@44.7395099,-92.8529727,19z">612 Vermillion St #13 Hastings, MN 55033</a>
+  #LinkedIn
+  #Twitter
+  #GitHub
+  </body>
+</html>
