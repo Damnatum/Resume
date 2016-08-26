@@ -5,25 +5,66 @@
   </head>
   <body>
   <h1>Tyler's Resume</h1>
-  #Navbar here
-  <h2>Emplyment History<h2>
+<ul class="navbar">
+  <li><a href="#employmenthistory">Employment History</a></li>
+  <li><a href="#education">Education</a></li>
+  <li><a href="#contactinfo">Contact Info</a></li>
+  <li class="icon">
+  </li>
+</ul>
+  <h2><a name=employmenthistory>Employment History</h2>
   <p>Case Staffing Solutions</p>
   <p>Eden Prairie, MN</p>
   <p>11/2011 - Present</p>
-  <p>Enter LinkedIn text here</p>
+  <p>While working as a recruiting specialist I did full cycle recruiting for industrial and clerical positions. This
+included going to job fairs, sourcing candidates, interviewing, and updating our clients on their orders. I also did
+a majority of the IT work. Which included troubleshooting computers, installing programs, training colleagues
+on various programs and finding creative, lowcost
+solutions to any technical issue that came up. As well as
+maintaining our phone system through Avaya, our staffing software, Avionte, our Sonicwall Firewall system, and
+a number of other technical systems. I also had several business development . responsibilities. Such as
+prospecting new clients, building a sales presentation, and working on policies and procedures for the sales
+department.</p>
   
-  <h2>Education</h2>
+  <h2><a name=education>Education</h2>
   <p>Normandale Community College</p>
   <p>Bloomington, MN</p>
   <p>2015 - 2015</p>
   <p>General Studies</p>
   
-  <h2>Contact Info</h2>
-  <a href="mailto:tyjblomberg@gmail.com" target="_top">tyjblomberg@gmail.com</a>
-  <a href="tel:13202234913>320-223-4913</a>
-  <a href="https://www.google.com/maps/@44.7395099,-92.8529727,19z">612 Vermillion St #13 Hastings, MN 55033</a>
-  #LinkedIn
-  #Twitter
-  #GitHub
+  <h2><a name=contactinfo>Contact Info</h2>
+    <p><a href="mailto:tyjblomberg@gmail.com" target="_top">tyjblomberg@gmail.com</a></p>
+    <p><a href="tel:13202234913">320-223-4913</a></p>
+  <p><a href="https://www.google.com/maps/@44.7395099,-92.8529727,19z">612 Vermillion St #13 Hastings, MN 55033</a></p>
+    <p><a href="www.linkedin.com/in/tylerblomberg">LinkedIn</a></p>
+    <p><a href="www.twitter.com/TylerJBlomberg">Twitter</a></p>
+    <p><a href="www.github.com/Damnatum">Github</a></p>
   </body>
 </html>
+
+<style>
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.navbar li {float: left;}
+
+ul.navbar li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+ul.navbar :hover {background-color: #555;}
+ul.navbar li.icon {display: none;}
+
+body {
+  background-color: #999;
+}
+</style>
